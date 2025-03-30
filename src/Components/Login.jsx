@@ -41,10 +41,12 @@ const Login = () => {
       });
   };
   const handleRegister = () => {
-    signUpWithGmail().then((result) => {
+    signUpWithGmail()
+      .then((result) => {
         const user = result.user;
         navigate(from, { replace: true }); // Redirects to intended route
-      }).catch((error) => {
+      })
+      .catch((error) => {
         const errorMsg = error.message;
         setErrorMessage("Please Provide Valid Email & Password!");
       });

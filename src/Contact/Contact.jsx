@@ -123,7 +123,7 @@ const Contact = () => {
               </div>
               <div className="form-group w-100 text-center">
                 <button className="lab-btn">
-                <span >{btnText}</span>
+                  <span>{btnText}</span>
                 </button>
               </div>
             </form>

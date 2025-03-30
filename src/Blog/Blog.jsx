@@ -37,13 +37,19 @@ const Blog = () => {
                         </div>
                         <div className="post-footer">
                           <div className="pf-left">
-                            <Link to={`/blog/${blog.id}`} className="lab-btn-text">{blog.btnText}
-                            <i className="icofont-external-link"></i>
+                            <Link
+                              to={`/blog/${blog.id}`}
+                              className="lab-btn-text"
+                            >
+                              {blog.btnText}
+                              <i className="icofont-external-link"></i>
                             </Link>
                           </div>
                           <div className="pf-right">
                             <i className="icofont-comment"></i>
-                            <span className="comment-count">{blog.commentCount}</span>
+                            <span className="comment-count">
+                              {blog.commentCount}
+                            </span>
                           </div>
                         </div>
                       </div>

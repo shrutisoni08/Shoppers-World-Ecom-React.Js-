@@ -75,14 +75,12 @@ const ProductDisplay = () => {
                         </div>
                       </div>
 
-                     
-
                       <div className="col-md-6 col-12">
                         <div className="post-content">
                           <div>
-                            {
-                              result.map(item => <ProductDetails key={item.id} item={item}/>)
-                            }
+                            {result.map((item) => (
+                              <ProductDetails key={item.id} item={item} />
+                            ))}
                           </div>
                         </div>
                       </div>
@@ -90,7 +88,7 @@ const ProductDisplay = () => {
                   </div>
 
                   <div className="review">
-                    <Review/>
+                    <Review />
                   </div>
                 </article>
               </div>
@@ -98,8 +96,8 @@ const ProductDisplay = () => {
               {/* Right side */}
               <div className="col-lg-4 col-12">
                 <aside className="ps-lg-4">
-                  <PopularPost/>
-                  <Tags/>
+                  <PopularPost />
+                  <Tags />
                 </aside>
               </div>
             </div>

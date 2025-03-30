@@ -38,7 +38,7 @@ const Banner = () => {
           <div className="banner-content">
             {title}
             <form>
-                <SelectedCategory select={"all"}/>
+              <SelectedCategory select={"all"} />
               <input
                 type="text"
                 name="search"
@@ -48,14 +48,17 @@ const Banner = () => {
                 placeholder="Search Your Product"
               />
               <button type="submit">
-              <i className="icofont-search-2"></i>
+                <i className="icofont-search-2"></i>
               </button>
             </form>
             <p>{desc}</p>
             <ul className="lab-ul">
-                {searchInput && filterProduct.map((product, i) => <li key={i}>
+              {searchInput &&
+                filterProduct.map((product, i) => (
+                  <li key={i}>
                     <Link to={`/shop/${product.id}`}>{product.name}</Link>
-                </li> )}
+                  </li>
+                ))}
             </ul>
           </div>
         </div>

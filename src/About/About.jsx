@@ -53,30 +53,28 @@ const About = () => {
             </div>
             {/* 2nd col */}
             <div className="col">
-                <div className="about-right">
-                    <div className="section-header">
-                        <span className="subtitle">{subTitle}</span>
-                        <h2 className="title">{title}</h2>
-                        <p>{desc}</p>
-                    </div>
-                    <div className="section-wrapper">
-                        <ul className="lab-ul">
-                            {
-                                aboutList.map((val, i)=>(
-                                    <li key={i}>
-                                        <div className="sr-left">
-                                            <img src={val.imgUrl} alt="" />
-                                        </div>
-                                        <div className="sr-right">
-                                            <h5>{val.title}</h5>
-                                            <p>{val.desc}</p>
-                                        </div>
-                                    </li>
-                                ))
-                            }
-                        </ul>
-                    </div>
+              <div className="about-right">
+                <div className="section-header">
+                  <span className="subtitle">{subTitle}</span>
+                  <h2 className="title">{title}</h2>
+                  <p>{desc}</p>
                 </div>
+                <div className="section-wrapper">
+                  <ul className="lab-ul">
+                    {aboutList.map((val, i) => (
+                      <li key={i}>
+                        <div className="sr-left">
+                          <img src={val.imgUrl} alt="" />
+                        </div>
+                        <div className="sr-right">
+                          <h5>{val.title}</h5>
+                          <p>{val.desc}</p>
+                        </div>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              </div>
             </div>
           </div>
         </div>

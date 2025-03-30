@@ -1,4 +1,4 @@
-import React, {useContext, useState } from "react";
+import React, { useContext, useState } from "react";
 import { Link, useLocation, useNavigate } from "react-router";
 import { GoogleAuthProvider, signInWithPopup, getAuth } from "firebase/auth";
 import app from "../Firebase/firebase.config";
@@ -16,13 +16,15 @@ const Signup = () => {
   const from = location.state?.from?.pathname || "/";
 
   const handleRegister = () => {
-    signUpWithGmail().then((result) => {
-      const user = result.user;
-      navigate(from, { replace: true }); // Redirects to intended route
-    }).catch((error) => {
-      const errorMsg = error.message;
-      setErrorMessage("Please Provide Valid Email & Password!");
-    });
+    signUpWithGmail()
+      .then((result) => {
+        const user = result.user;
+        navigate(from, { replace: true }); // Redirects to intended route
+      })
+      .catch((error) => {
+        const errorMsg = error.message;
+        setErrorMessage("Please Provide Valid Email & Password!");
+      });
   };
   const handleSignup = (event) => {
     event.preventDefault();
@@ -32,17 +34,21 @@ const Signup = () => {
     const confirmPassword = form.confirmPassword.value;
     // console.log(email, password, confirmPassword);
     if (password !== confirmPassword) {
-      setErrorMessage("Password Didn't Match! Please, Provide A Correct Password!");
-    }else{
+      setErrorMessage(
+        "Password Didn't Match! Please, Provide A Correct Password!"
+      );
+    } else {
       setErrorMessage("");
-      createUser(email, password).then((userCredential) => {
-        const user = userCredential.user;
-        alert("Account Created Successfully Done!")
-        navigate(from, {replace: true})
-      }).catch((error) => {
-        console.log(error.message)
-        alert(`${error.message}`)
-      })
+      createUser(email, password)
+        .then((userCredential) => {
+          const user = userCredential.user;
+          alert("Account Created Successfully Done!");
+          navigate(from, { replace: true });
+        })
+        .catch((error) => {
+          console.log(error.message);
+          alert(`${error.message}`);
+        });
     }
   };
 

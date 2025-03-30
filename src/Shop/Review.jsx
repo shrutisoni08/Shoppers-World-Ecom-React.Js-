@@ -138,17 +138,35 @@ const Review = () => {
           </p>
           <div className="post-item">
             <div className="post-thumb">
-                <img src="../../public/assets/images/shop/01.jpg" alt="" />
+              <img src="../../public/assets/images/shop/01.jpg" alt="" />
             </div>
             <div className="post-content">
-                <ul className="lab-ul">
-                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, velit.</li>
-                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, velit.</li>
-                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, velit.</li>
-                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, velit.</li>
-                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, velit.</li>
-                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, velit.</li>
-                </ul>
+              <ul className="lab-ul">
+                <li>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Nesciunt, velit.
+                </li>
+                <li>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Nesciunt, velit.
+                </li>
+                <li>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Nesciunt, velit.
+                </li>
+                <li>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Nesciunt, velit.
+                </li>
+                <li>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Nesciunt, velit.
+                </li>
+                <li>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Nesciunt, velit.
+                </li>
+              </ul>
             </div>
           </div>
           <p>

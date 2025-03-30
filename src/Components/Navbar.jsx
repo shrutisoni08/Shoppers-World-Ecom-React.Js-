@@ -9,8 +9,8 @@ const Navbar = () => {
   const [headerFixed, setHeaderFixed] = useState(false);
 
   // authInfo
-  const {user} = useContext(AuthContext);
- console.log(user);
+  const { user } = useContext(AuthContext);
+  // console.log(user);
 
   // Handle scroll event
   useEffect(() => {
@@ -27,7 +27,11 @@ const Navbar = () => {
 
   return (
     <>
-      <header className={`header-section style-4 ${headerFixed ? "header-fixed fadeInUp" : ""}`}>
+      <header
+        className={`header-section style-4 ${
+          headerFixed ? "header-fixed fadeInUp" : ""
+        }`}
+      >
         {/* Header top section */}
         <div className={`header-top d-md-none ${socialToggle ? "oper" : ""}`}>
           <div className="container">
@@ -50,7 +54,11 @@ const Navbar = () => {
               <div className="logo-search-acte">
                 <div className="logo">
                   <Link to="/">
-                    <img src="/assets/images/logo/logo.png" className="w-25 h-auto" alt="Logo" />
+                    <img
+                      src="/assets/images/logo/logo.png"
+                      className="w-25 h-auto"
+                      alt="Logo"
+                    />
                   </Link>
                 </div>
               </div>
@@ -59,11 +67,21 @@ const Navbar = () => {
               <div className="menu-area">
                 <div className="menu">
                   <ul className={`lab-ul ${menuToggle ? "active" : ""}`}>
-                    <li><Link to="/">Home</Link></li>
-                    <li><Link to="/shop">Shop</Link></li>
-                    <li><Link to="/about">About</Link></li>
-                    <li><Link to="/blog">Blog</Link></li>
-                    <li><Link to="/contact">Contact</Link></li>
+                    <li>
+                      <Link to="/">Home</Link>
+                    </li>
+                    <li>
+                      <Link to="/shop">Shop</Link>
+                    </li>
+                    <li>
+                      <Link to="/about">About</Link>
+                    </li>
+                    <li>
+                      <Link to="/blog">Blog</Link>
+                    </li>
+                    <li>
+                      <Link to="/contact">Contact</Link>
+                    </li>
                   </ul>
                 </div>
 
@@ -78,7 +96,9 @@ const Navbar = () => {
                 {/* Menu toggler */}
                 <div
                   onClick={() => setMenuToggle(!menuToggle)}
-                  className={`header-bar d-lg-none ${menuToggle ? "active" : ""}`}
+                  className={`header-bar d-lg-none ${
+                    menuToggle ? "active" : ""
+                  }`}
                 >
                   <span></span>
                   <span></span>

@@ -17,8 +17,8 @@ const Home = () => {
       <Register />
       <LocationSection />
       <AboutUs />
-      <AppSection/>
-      <Sponsor/>
+      <AppSection />
+      <Sponsor />
     </div>
   );
 };

@@ -83,9 +83,9 @@ const CategoryShowCase = () => {
   const [items, setItems] = useState(ProductData);
   //   category based filtering
   const filterItem = (categItem) => {
-    const updateItems = ProductData.filter((curElem)=>{
+    const updateItems = ProductData.filter((curElem) => {
       return curElem.cate === categItem;
-    })
+    });
     setItems(updateItems);
   };
 
@@ -128,7 +128,7 @@ const CategoryShowCase = () => {
                             <a href="#">{product.cate}</a>
                           </div>
                           <div className="course-review">
-                            <Ratting/>
+                            <Ratting />
                           </div>
                         </div>
                       </div>
@@ -136,13 +136,13 @@ const CategoryShowCase = () => {
                       {/* content */}
                       <div className="course-content">
                         <Link to={`/shop/${product.id}`}>
-                        <h5>
-                        {product.title}
-                        </h5>
+                          <h5>{product.title}</h5>
                         </Link>
                         <div className="course-footer">
                           <div className="course-author">
-                          <Link to="/" className="ca-name">{product.brand}</Link>
+                            <Link to="/" className="ca-name">
+                              {product.brand}
+                            </Link>
                           </div>
                           <div className="course-price">{product.price}</div>
                         </div>

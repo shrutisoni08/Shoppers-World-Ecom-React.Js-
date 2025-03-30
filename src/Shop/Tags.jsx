@@ -44,20 +44,18 @@ const tagsList = [
 const Tags = () => {
   return (
     <>
-    <div className="widget widget-tags">
+      <div className="widget widget-tags">
         <div className="widget-header">
-            <h3 className="title">{title}</h3>
+          <h3 className="title">{title}</h3>
         </div>
         <ul className="widget-wrapper">
-            {
-                tagsList.map((val,i)=>(
-                    <li key={i} className="d-flex ">
-                        <a href={val.link}>{val.text}</a>
-                    </li>
-                ))
-            }
+          {tagsList.map((val, i) => (
+            <li key={i} className="d-flex ">
+              <a href={val.link}>{val.text}</a>
+            </li>
+          ))}
         </ul>
-    </div>
+      </div>
     </>
   );
 };

@@ -89,7 +89,7 @@ const Shop = () => {
                   selectedCategory={selectedCategory}
                 />
                 <PopularPost />
-                <Tags/>
+                <Tags />
               </main>
             </div>
           </div>

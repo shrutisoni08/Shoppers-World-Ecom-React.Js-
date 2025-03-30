@@ -34,14 +34,12 @@ const ProductCard = ({ gridList, products }) => {
 
               <div className="product-content">
                 <h6>
-                    <Link to={`/shop/${product.id}`}>{product.name}</Link>
+                  <Link to={`/shop/${product.id}`}>{product.name}</Link>
                 </h6>
                 <p className="productRating">
-                    <Ratting/>
+                  <Ratting />
                 </p>
-                <p>
-                    ${product.price}
-                </p>
+                <p>${product.price}</p>
               </div>
             </div>
 
@@ -68,14 +66,12 @@ const ProductCard = ({ gridList, products }) => {
 
               <div className="product-content">
                 <h6>
-                    <Link to={`/shop/${product.id}`}>{product.name}</Link>
+                  <Link to={`/shop/${product.id}`}>{product.name}</Link>
                 </h6>
                 <p className="productRating">
-                    <Ratting/>
+                  <Ratting />
                 </p>
-                <p>
-                    ${product.price}
-                </p>
+                <p>${product.price}</p>
               </div>
             </div>
           </div>

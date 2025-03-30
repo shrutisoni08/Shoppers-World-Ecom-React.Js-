@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import blogList from "../utilis/blogdata";
 import { useParams } from "react-router";
 import PageHeader from "../Components/PageHeader";
-import Tags from "../Shop/Tags"
-import PopularPost from "../Shop/PopularPost"
+import Tags from "../Shop/Tags";
+import PopularPost from "../Shop/PopularPost";
 
 const socialList = [
   { link: "#", iconName: "icofont-facebook", className: "facebook" },
@@ -175,10 +175,10 @@ const BlogPage = () => {
             </div>
             {/* right side */}
             <div className="col-lg-4 col-12">
-                <aside>
-                    <Tags/>
-                    <PopularPost/>
-                </aside>
+              <aside>
+                <Tags />
+                <PopularPost />
+              </aside>
             </div>
           </div>
         </div>

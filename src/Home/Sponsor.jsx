@@ -28,8 +28,8 @@ const Sponsor = () => {
                 slidesPerView={2}
                 spaceBetween={20}
                 autoplay={{
-                    delay: 2000,
-                    disableOnInteraction: false
+                  delay: 2000,
+                  disableOnInteraction: false,
                 }}
                 breakpoints={{
                   640: {
@@ -48,17 +48,15 @@ const Sponsor = () => {
                 modules={[Autoplay]}
                 className="mySwiper"
               >
-                {
-                    sponsorList.map((Val, i)=>(
-                        <SwiperSlide key={i}>
-                            <div className="sponsor-item">
-                                <div className="sponsor-thumb">
-                                    <img src={Val.imgUrl} alt="" />
-                                </div>
-                            </div>
-                        </SwiperSlide>
-                    ))
-                }
+                {sponsorList.map((Val, i) => (
+                  <SwiperSlide key={i}>
+                    <div className="sponsor-item">
+                      <div className="sponsor-thumb">
+                        <img src={Val.imgUrl} alt="" />
+                      </div>
+                    </div>
+                  </SwiperSlide>
+                ))}
               </Swiper>
             </div>
           </div>
