@@ -17,7 +17,7 @@ const ProductDisplay = () => {
   const { id } = useParams();
   //   console.log(id);
   useEffect(() => {
-    fetch("/public/products.json")
+    fetch("https://shoppers-world.netlify.app/products.json")
       .then((res) => res.json())
       .then((data) => setProduct(data));
   }, []);
