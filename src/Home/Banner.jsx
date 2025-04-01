@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import productData from "../products.json";
+import productData from "../../public/products.json";
 import { Link } from "react-router";
 import SelectedCategory from "../Components/SelectedCategory";
 
