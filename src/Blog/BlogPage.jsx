@@ -4,6 +4,9 @@ import { useParams } from "react-router";
 import PageHeader from "../Components/PageHeader";
 import Tags from "../Shop/Tags";
 import PopularPost from "../Shop/PopularPost";
+import blogimg from "../assets/images/blog/single/02.jpg"
+import blogimg2 from "../assets/images/blog/single/01.jpg"
+
 
 const socialList = [
   { link: "#", iconName: "icofont-facebook", className: "facebook" },
@@ -90,7 +93,7 @@ const BlogPage = () => {
                                   fugiat?
                                 </p>
                                 <img
-                                  src="../assets/images/blog/single/01.jpg"
+                                  src={blogimg2}
                                   alt=""
                                 />
                                 <p>
@@ -105,7 +108,7 @@ const BlogPage = () => {
                                 </p>
                                 <div className="video-thumb">
                                   <img
-                                    src="../assets/images/blog/single/02.jpg"
+                                    src={blogimg}
                                     alt=""
                                   />
                                   <a href="#" className="video-button popup">

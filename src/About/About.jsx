@@ -1,5 +1,10 @@
 import React from "react";
 import PageHeader from "../Components/PageHeader";
+import img1 from "../assets/images/about/01.jpg";
+import img2 from "../assets/images/about/02.jpg";
+import icon1 from "../assets/images/about/icon/01.jpg";
+import icon2 from "../assets/images/about/icon/02.jpg";
+import icon3 from "../assets/images/about/icon/03.jpg";
 
 const subTitle = "About Our Brand";
 const title = "Good Qualification Services And Better Expriences";
@@ -11,19 +16,20 @@ const expareance = "Years Of Experiences";
 
 const aboutList = [
   {
-    imgUrl: "../assets/images/about/icon/01.jpg",
+    // ../assets/images/about/icon/01.jpg
+    imgUrl: icon1,
     imgAlt: "about icon rajibraj91 rajibraj",
     title: "Skilled Instructors",
     desc: "Distinctively provide acces mutfuncto users whereas communicate leveraged services",
   },
   {
-    imgUrl: "../assets/images/about/icon/02.jpg",
+    imgUrl: icon2,
     imgAlt: "about icon rajibraj91 rajibraj",
     title: "Get Certificate",
     desc: "Distinctively provide acces mutfuncto users whereas communicate leveraged services",
   },
   {
-    imgUrl: "../assets/images/about/icon/03.jpg",
+    imgUrl: icon3,
     imgAlt: "about icon rajibraj91 rajibraj",
     title: "Online Classes",
     desc: "Distinctively provide acces mutfuncto users whereas communicate leveraged services",
@@ -40,10 +46,10 @@ const About = () => {
             <div className="col">
               <div className="about-left">
                 <div className="about-thumb">
-                  <img src="../assets/images/about/01.jpg" alt="" />
+                  <img src={img1} alt="" />
                 </div>
                 <div className="abs-thumb">
-                  <img src="../assets/images/about/02.jpg" alt="" />
+                  <img src={img2} alt="" />
                 </div>
                 <div className="about-left-content">
                   <h3>{year}</h3>

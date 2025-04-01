@@ -1,5 +1,7 @@
 import React from "react";
 import { Link } from "react-router";
+import img1 from "../assets/images/app/01.jpg";
+import img2 from "../assets/images/app/02.jpg";
 
 const btnText = "Sign up for Free!";
 const title = "Shop Anytime,anywhere";
@@ -23,12 +25,12 @@ const AppSection = () => {
             <ul className="lab-ul">
               <li>
                 <a href="#">
-                  <img src="../assets/images/app/01.jpg" alt="img" />
+                  <img src={img1} alt="img" />
                 </a>
               </li>
               <li>
                 <a href="#">
-                  <img src="../assets/images/app/02.jpg" alt="img" />
+                  <img src={img2} alt="img" />
                 </a>
               </li>
             </ul>

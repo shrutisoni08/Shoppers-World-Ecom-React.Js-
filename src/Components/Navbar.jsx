@@ -3,6 +3,7 @@ import { useContext } from "react";
 import { Link } from "react-router-dom";
 import { AuthContext } from "../Contexts/AuthProvider";
 
+import logo from "../assets/images/logo/logo.png";
 const Navbar = () => {
   const [menuToggle, setMenuToggle] = useState(false);
   const [socialToggle, setSocialToggle] = useState(false);
@@ -54,11 +55,7 @@ const Navbar = () => {
               <div className="logo-search-acte">
                 <div className="logo">
                   <Link to="/">
-                    <img
-                      src="/assets/images/logo/logo.png"
-                      className="w-25 h-auto"
-                      alt="Logo"
-                    />
+                    <img src={logo} className="w-25 h-auto" alt="Logo" />
                   </Link>
                 </div>
               </div>

@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router";
+import avatar1 from "../assets/images/clients/avater.jpg";
 
 const title = "More Then 60,000 Customers";
 
@@ -8,37 +9,37 @@ const desc =
 
 const clientsList = [
   {
-    imgUrl: "../assets/images/clients/avater.jpg",
+    imgUrl: avatar1,
     imgAlt: "education thumb rajibraj91 rajibraj",
     text: "Join with Us",
   },
   {
-    imgUrl: "../assets/images/clients/avater.jpg",
+    imgUrl: avatar1,
     imgAlt: "education thumb rajibraj91 rajibraj",
     text: "Join with Us",
   },
   {
-    imgUrl: "../assets/images/clients/avater.jpg",
+    imgUrl: avatar1,
     imgAlt: "education thumb rajibraj91 rajibraj",
     text: "Join with Us",
   },
   {
-    imgUrl: "../assets/images/clients/avater.jpg",
+    imgUrl: avatar1,
     imgAlt: "education thumb rajibraj91 rajibraj",
     text: "Join with Us",
   },
   {
-    imgUrl: "../assets/images/clients/avater.jpg",
+    imgUrl: avatar1,
     imgAlt: "education thumb rajibraj91 rajibraj",
     text: "Join with Us",
   },
   {
-    imgUrl: "../assets/images/clients/avater.jpg",
+    imgUrl: avatar1,
     imgAlt: "education thumb rajibraj91 rajibraj",
     text: "Join with Us",
   },
   {
-    imgUrl: "../assets/images/clients/avater.jpg",
+    imgUrl: avatar1,
     imgAlt: "education thumb rajibraj91 rajibraj",
     text: "Joined From USA",
   },

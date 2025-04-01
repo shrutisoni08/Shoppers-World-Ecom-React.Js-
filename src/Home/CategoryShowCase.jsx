@@ -1,12 +1,23 @@
 import React, { useState } from "react";
 import Ratting from "../Components/Ratting";
 import { Link } from "react-router";
+import img1 from "../assets/images/categoryTab/01.jpg";
+import img2 from "../assets/images/categoryTab/02.jpg";
+import img3 from "../assets/images/categoryTab/03.jpg";
+import img4 from "../assets/images/categoryTab/04.jpg";
+import img5 from "../assets/images/categoryTab/05.jpg";
+import img6 from "../assets/images/categoryTab/06.jpg";
+import img7 from "../assets/images/categoryTab/07.jpg";
+import img8 from "../assets/images/categoryTab/08.jpg";
+
+import icon1 from "../assets/images/shape-img/icon/01.png";
+import icon2 from "../assets/images/shape-img/icon/01.png";
 
 const title = "Our Products";
 
 const ProductData = [
   {
-    imgUrl: "../assets/images/categoryTab/01.jpg",
+    imgUrl: img1,
     cate: "Shoes",
     title: "Nike Premier X",
     author: "assets/images/course/author/01.jpg",
@@ -15,7 +26,7 @@ const ProductData = [
     id: 1,
   },
   {
-    imgUrl: "../assets/images/categoryTab/02.jpg",
+    imgUrl: img2,
     cate: "Bags",
     title: "Asthetic Bags",
     author: "assets/images/course/author/02.jpg",
@@ -24,7 +35,7 @@ const ProductData = [
     id: 2,
   },
   {
-    imgUrl: "../assets/images/categoryTab/03.jpg",
+    imgUrl: img3,
     cate: "Phones",
     title: "iPhone 12",
     author: "src/assets/images/categoryTab/brand/apple.png",
@@ -33,7 +44,7 @@ const ProductData = [
     id: 3,
   },
   {
-    imgUrl: "../assets/images/categoryTab/04.jpg",
+    imgUrl: img4,
     cate: "Bags",
     title: "Hiking Bag 15 Nh100",
     author: "assets/images/course/author/04.jpg",
@@ -42,7 +53,7 @@ const ProductData = [
     id: 4,
   },
   {
-    imgUrl: "../assets/images/categoryTab/05.jpg",
+    imgUrl: img5,
     cate: "Shoes",
     title: "Outdoor Sports Shoes",
     author: "assets/images/course/author/05.jpg",
@@ -51,7 +62,7 @@ const ProductData = [
     id: 5,
   },
   {
-    imgUrl: "../assets/images/categoryTab/06.jpg",
+    imgUrl: img6,
     cate: "Beauty",
     title: "COSRX Snail Mucin",
     author: "assets/images/course/author/06.jpg",
@@ -60,7 +71,7 @@ const ProductData = [
     id: 6,
   },
   {
-    imgUrl: "../assets/images/categoryTab/07.jpg",
+    imgUrl: img7,
     cate: "Bags",
     title: "Look Less Chanel Bag ",
     author: "assets/images/course/author/01.jpg",
@@ -69,7 +80,7 @@ const ProductData = [
     id: 7,
   },
   {
-    imgUrl: "../assets/images/categoryTab/08.jpg",
+    imgUrl: img8,
     cate: "Shoes",
     title: "Casual Sneakers",
     author: "assets/images/course/author/02.jpg",
@@ -94,10 +105,10 @@ const CategoryShowCase = () => {
       <div className="course-section style-3 padding-tb">
         {/* bg shapes */}
         <div className="course-shape one">
-          <img src="../assets/images/shape-img/icon/01.png" alt="" />
+          <img src={icon1} alt="" />
         </div>
         <div className="course-shape two">
-          <img src="../assets/images/shape-img/icon/01.png" alt="" />
+          <img src={icon2} alt="" />
         </div>
         {/* main section */}
         <div className="container">

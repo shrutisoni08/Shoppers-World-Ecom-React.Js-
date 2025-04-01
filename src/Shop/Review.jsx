@@ -1,32 +1,36 @@
 import React, { useState } from "react";
 import Ratting from "../Components/Ratting";
+import img1 from "../assets/images/instructor/01.jpg";
+import img2 from "../assets/images/instructor/02.jpg";
+import img3 from "../assets/images/instructor/03.jpg";
+import img4 from "../assets/images/instructor/04.jpg";
 
 const reviewTitle = "Add a Review";
 
 let ReviewList = [
   {
-    imgUrl: "../assets/images/instructor/01.jpg",
+    imgUrl: img1,
     imgAlt: "Client thumb",
     name: "Ganelon Boileau",
     date: "Posted on Jun 10, 2022 at 6:57 am",
     desc: "Enthusiast build innovativ initiatives before lonterm high-impact awesome theme seo psd porta monetize covalent leadership after without resource.",
   },
   {
-    imgUrl: "../assets/images/instructor/02.jpg",
+    imgUrl: img2,
     imgAlt: "Client thumb",
     name: "Morgana Cailot",
     date: "Posted on Jun 10, 2022 at 6:57 am",
     desc: "Enthusiast build innovativ initiatives before lonterm high-impact awesome theme seo psd porta monetize covalent leadership after without resource.",
   },
   {
-    imgUrl: "../assets/images/instructor/03.jpg",
+    imgUrl: img3,
     imgAlt: "Client thumb",
     name: "Telford Bois",
     date: "Posted on Jun 10, 2022 at 6:57 am",
     desc: "Enthusiast build innovativ initiatives before lonterm high-impact awesome theme seo psd porta monetize covalent leadership after without resource.",
   },
   {
-    imgUrl: "../assets/images/instructor/04.jpg",
+    imgUrl: img4,
     imgAlt: "Client thumb",
     name: "Cher Daviau",
     date: "Posted on Jun 10, 2022 at 6:57 am",
