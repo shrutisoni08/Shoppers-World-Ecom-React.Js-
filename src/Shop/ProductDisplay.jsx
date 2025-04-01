@@ -11,12 +11,13 @@ import ProductDetails from "./ProductDetails";
 import Review from "./Review";
 import PopularPost from "../Shop/PopularPost";
 import Tags from "../Shop/Tags";
+
 const ProductDisplay = () => {
   const [product, setProduct] = useState([]);
   const { id } = useParams();
   //   console.log(id);
   useEffect(() => {
-    fetch("../../src/products.json")
+    fetch("/src/products.json")
       .then((res) => res.json())
       .then((data) => setProduct(data));
   }, []);
@@ -45,7 +46,7 @@ const ProductDisplay = () => {
                             <Swiper
                               spaceBetween={30}
                               slidesPerView={1}
-                              loop={"true"}
+                              loop={result.length > 1}
                               autoplay={{
                                 delay: 2000,
                                 disableOnInteraction: false,
