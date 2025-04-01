@@ -16,7 +16,7 @@ const ProductDisplay = () => {
   const { id } = useParams();
   //   console.log(id);
   useEffect(() => {
-    fetch("/src/products.json")
+    fetch("../../src/products.json")
       .then((res) => res.json())
       .then((data) => setProduct(data));
   }, []);
