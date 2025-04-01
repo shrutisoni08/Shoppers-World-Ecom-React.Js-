@@ -90,7 +90,7 @@ const BlogPage = () => {
                                   fugiat?
                                 </p>
                                 <img
-                                  src="../../public/assets/images/blog/single/01.jpg"
+                                  src="../assets/images/blog/single/01.jpg"
                                   alt=""
                                 />
                                 <p>
@@ -105,7 +105,7 @@ const BlogPage = () => {
                                 </p>
                                 <div className="video-thumb">
                                   <img
-                                    src="../../public/assets/images/blog/single/02.jpg"
+                                    src="../assets/images/blog/single/02.jpg"
                                     alt=""
                                   />
                                   <a href="#" className="video-button popup">

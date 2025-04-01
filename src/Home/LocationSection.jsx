@@ -8,37 +8,37 @@ const desc =
 
 const clientsList = [
   {
-    imgUrl: "../../public/assets/images/clients/avater.jpg",
+    imgUrl: "../assets/images/clients/avater.jpg",
     imgAlt: "education thumb rajibraj91 rajibraj",
     text: "Join with Us",
   },
   {
-    imgUrl: "../../public/assets/images/clients/avater.jpg",
+    imgUrl: "../assets/images/clients/avater.jpg",
     imgAlt: "education thumb rajibraj91 rajibraj",
     text: "Join with Us",
   },
   {
-    imgUrl: "../../public/assets/images/clients/avater.jpg",
+    imgUrl: "../assets/images/clients/avater.jpg",
     imgAlt: "education thumb rajibraj91 rajibraj",
     text: "Join with Us",
   },
   {
-    imgUrl: "../../public/assets/images/clients/avater.jpg",
+    imgUrl: "../assets/images/clients/avater.jpg",
     imgAlt: "education thumb rajibraj91 rajibraj",
     text: "Join with Us",
   },
   {
-    imgUrl: "../../public/assets/images/clients/avater.jpg",
+    imgUrl: "../assets/images/clients/avater.jpg",
     imgAlt: "education thumb rajibraj91 rajibraj",
     text: "Join with Us",
   },
   {
-    imgUrl: "../../public/assets/images/clients/avater.jpg",
+    imgUrl: "../assets/images/clients/avater.jpg",
     imgAlt: "education thumb rajibraj91 rajibraj",
     text: "Join with Us",
   },
   {
-    imgUrl: "../../public/assets/images/clients/avater.jpg",
+    imgUrl: "../assets/images/clients/avater.jpg",
     imgAlt: "education thumb rajibraj91 rajibraj",
     text: "Joined From USA",
   },

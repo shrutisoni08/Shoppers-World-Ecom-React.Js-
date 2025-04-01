@@ -9,9 +9,9 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.min.js";
 
 // fonts and icons
-import "../public/assets/css/icofont.min.css";
-import "../public/assets/css/animate.css";
-import "../public/assets/css/style.min.css";
+import "./assets/css/icofont.min.css";
+import "./assets/css/animate.css";
+import "./assets/css/style.min.css";
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from "../src/Home/Home.jsx";

@@ -23,12 +23,12 @@ const AppSection = () => {
             <ul className="lab-ul">
               <li>
                 <a href="#">
-                  <img src="../../public/assets/images/app/01.jpg" alt="img" />
+                  <img src="../assets/images/app/01.jpg" alt="img" />
                 </a>
               </li>
               <li>
                 <a href="#">
-                  <img src="../../public/assets/images/app/02.jpg" alt="img" />
+                  <img src="../assets/images/app/02.jpg" alt="img" />
                 </a>
               </li>
             </ul>

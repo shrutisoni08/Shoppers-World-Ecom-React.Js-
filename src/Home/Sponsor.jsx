@@ -9,12 +9,12 @@ import "swiper/css/pagination";
 import { Autoplay } from "swiper/modules";
 
 const sponsorList = [
-  { imgUrl: "../../public/assets/images/sponsor/01.png" },
-  { imgUrl: "../../public/assets/images/sponsor/02.png" },
-  { imgUrl: "../../public/assets/images/sponsor/03.png" },
-  { imgUrl: "../../public/assets/images/sponsor/04.png" },
-  { imgUrl: "../../public/assets/images/sponsor/05.png" },
-  { imgUrl: "../../public/assets/images/sponsor/06.png" },
+  { imgUrl: "../assets/images/sponsor/02.png" },
+  { imgUrl: "../assets/images/sponsor/01.png" },
+  { imgUrl: "../assets/images/sponsor/03.png" },
+  { imgUrl: "../assets/images/sponsor/04.png" },
+  { imgUrl: "../assets/images/sponsor/05.png" },
+  { imgUrl: "../assets/images/sponsor/06.png" },
 ];
 
 const Sponsor = () => {

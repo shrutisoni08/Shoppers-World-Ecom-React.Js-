@@ -65,7 +65,7 @@ const AboutUs = () => {
               <div className="col">
                 <div className="instructor-thumb">
                   <img
-                    src="../../public/assets/images/instructor/01.png"
+                    src="../assets/images/instructor/01.png"
                     alt=""
                   />
                 </div>
